@@ -1,0 +1,22 @@
+drop table if exists mytable;
+
+
+create table mytable(
+Id int ,
+ name varchar(16) ,
+ age int
+);
+
+
+insert into mytable
+values
+('1', ' Arul', ' 45') ,
+('2', ' Vignesh', ' 73') ,
+('3', ' Sekar', '34') ,
+('1', ' Arul', ' 45') ,
+('2', 'Vignesh', '24') ,
+('4', ' Vivek', '56') ,
+('5', ' Ramu', '67') ;
+
+
+select * from mytable
